@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch PacketAnalyzer",
+      "request": "launch",
+      "mainClass": "com.example.PacketAnalyzer",
+      "vmArgs": "-Djava.library.path=path/to/extracted/jnetpcap/lib"
+    }
+  ]
+}
